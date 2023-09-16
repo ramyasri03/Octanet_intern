@@ -127,21 +127,13 @@ ul li{
 .footer{
     color:white;
     position:absolute;
-    left:30px;
-    bottom:5px;
-    background-color:rgb(170, 168, 168);
-    border-radius: 80%;
-    height: 30px;
-    width: 9%;
+    right:30px;
+    bottom:25px;
 
 }
 #help{
     position: relative;
    font-size: 17px;
-   left: 15px;
-   color: black;
+   color:white;
    font-weight: 600;
-   bottom:-3px;
 }
-
-

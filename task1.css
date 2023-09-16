@@ -99,7 +99,7 @@ ul li{
 
 }
 .menu ul{
-    position:fixed;
+    position:absolute;
     right:-1%;
     top:15%;
 }

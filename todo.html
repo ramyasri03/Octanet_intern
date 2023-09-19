@@ -1,0 +1,50 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+
+<div class="list-wrap"> 
+  <div class="list-inner-wrap">
+    <h1 class="title">My ToDo List</h1>
+    <h3 class="title">Add Task</h2>
+    <h4>Task Name</h4>
+    
+    <input type="text" class="newTask" name="task-name" id="task-name" placeholder="Type here...." value="">
+
+    <button class="btn btn-primary">
+      <span class="glyphicon glyphicon-plus"> Add</span>
+    </button>
+    <h4>Date</h4>
+    <br>
+    <label for="task-date">Task Date</label><input type="text" class="task-date" name="task-date" placeholder="DD/MM/YYYY" id="task-date" value="">
+    <br>
+    <br>
+    <br>
+    
+    
+ <div class="btn-group-lg" role="group" aria-label="...">
+  <button type="button" class="btn btn-primary importance"><span class="glyphicon glyphicon-exclamation-sign" value="important"></span> Important</button>
+  <button type="button" class="btn btn-primary importance" value="unimportant"> <span class="glyphicon glyphicon-minus-sign"></span> Unimportant</button>
+</div>
+    <br>
+
+
+    <h3 class="title">To Do</h2>
+    <ul class="uncompleted">
+      <li>Need to be completed task<button class="btn btn-success">
+      <span class="glyphicon glyphicon-ok"> Done</span>
+        </button></li>
+    </ul>
+
+    <h3 class="title">Completed Tasks</h2>
+    <ul class="completed">
+      <li>Completed Task<button class="btn btn-danger">
+      <span class="glyphicon glyphicon-remove"> Remove</span>
+    </button></li>
+    </ul>
+   </div>
+</div>
+  </body>
